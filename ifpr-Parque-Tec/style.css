@@ -1,0 +1,232 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+
+.barra {
+
+  background-image: linear-gradient(white, rgb(166 166 166));
+  width: 100%;
+  height: 120px;
+
+}
+
+.itaipuparquetec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 0.5%;
+  height: 40%;
+  
+  left: 14%;
+  top: 16%;
+}
+
+.roda {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30%;
+
+}
+
+.lupa {
+  --tamanho: 1.5%;
+
+  height: var(--tamanho);
+  width: var(--tamanho);
+}
+
+.bi-bi-instagram {
+  margin-left: 5%;
+  --tamanho: 1.5%;
+  height: var(--tamanho);
+  width: var(--tamanho);
+  color: rgb(66, 66, 66);
+}
+
+.bi-bi-linkedin {
+  --tamanho: 1.5%;
+  height: var(--tamanho);
+  width: var(--tamanho);
+  margin-left: 3px;
+}
+
+.bi-bi-facebook {
+  --tamanho: 1.5%;
+  height: var(--tamanho);
+  width: var(--tamanho);
+  margin-left: 3px;
+}
+
+.bi-bi-youtube {
+  --tamanho: 1.5%;
+  height: var(--tamanho);
+  width: var(--tamanho);
+  margin-left: 3px;
+}
+
+.ipti {
+  display: flex;
+
+}
+
+.ipti-image {
+
+  padding-top: 33px;
+  height: auto;
+  width: 100%;
+}
+
+.cor-azul {
+  background-color: #000825;
+  display: flex;
+  justify-content: center;
+}
+
+.caixas {
+
+  display: flex;
+  flex-direction: row;
+  font-family: "Ubuntu", Sans-serif !important;
+}
+
+.caixa {
+
+  background-color: rgb(127, 193, 255);
+
+  display: flex;
+
+  justify-content: center;
+  align-items: end;
+
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+
+  border-radius: 15px;
+
+  height: 295px;
+  width: 400px;
+
+  border: 1px solid #4FC4FF60;
+
+  font-size: larger;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  padding-left: 45px;
+  padding-top: 10px;
+  font-family: "Ubuntu", Sans-serif !important;
+  font-size: 20px;
+}
+
+.um {
+  background-image: url('foto1.png ');
+  font-family: "Ubuntu", Sans-serif !important;
+  font-size: 20px;
+}
+
+.dois {
+  background-image: url('foto2.png ');
+}
+
+.tres {
+  background-image: url('foto3.png ');
+}
+
+.quatro {
+  background-image: url('foto4.png ');
+}
+
+.cinco {
+  background-image: url('foto5.png ');
+}
+
+.seis {
+  background-image: url('foto6.png ');
+}
+
+.sete {
+  background-image: url('foto7.png ');
+}
+
+.oito {
+  background-image: url('foto8.png ');
+}
+
+.nove {
+  background-image: url('foto9.png ');
+}
+
+.fundo-branco {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box {
+  background-color: rgb(92, 11, 117);
+  width: 300px;
+  height: 335px;
+  margin: 10px;
+  border-radius: 15px;
+
+}
+
+.letra {
+  font-family: "Ubuntu", Sans-serif !important;
+  font-size: 30px;
+
+  color: white;
+
+  margin-left: 20px;
+  margin-top: 35px;
+}
+
+.minibox {
+
+  font-family: "Ubuntu", Sans-serif !important;
+
+  background-color: white;
+  width: 250px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+
+  border-radius: 8px;
+
+  margin-top: 10px;
+  margin-left: 22px;
+}
+
+.mini {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagem-inversa {
+  transform: rotate(180deg);
+  background-color: #000825;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.fim {
+  font-family: "Ubuntu", Sans-serif !important;
+  font-size: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
